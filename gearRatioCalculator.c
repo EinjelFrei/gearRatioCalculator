@@ -37,4 +37,7 @@ int main(){
 	
 	printf("\n\nFound gear ratio: %d:%d (%f)", candidateDen, candidateNum, candidate);
 	printf("\nError: %f", candidateDiff);
+
+	printf("\nPress any key to continue...");
+	getch();
 }
